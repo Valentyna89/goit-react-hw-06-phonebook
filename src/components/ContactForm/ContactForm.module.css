@@ -1,0 +1,36 @@
+.contactsForm {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 2px 1px gray;
+}
+
+.contactData {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputData {
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: 0.5px 0.5px 2px 0.5px gray;
+}
+
+.addBtn {
+    font-size: 16px;
+    color: aliceblue;
+    width: 120px;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    background-color: lightseagreen;
+    box-shadow: 1px 1px 2px 1px gray;
+    cursor: pointer;
+}
+
+.addBtn:hover {
+    color: black;
+    background-color: lightskyblue;
+}
